@@ -29,33 +29,33 @@ fn main() {
     println!("LIFTOFF!!!");
 }
 
-fn loopb() {
-    let mut number = 3;
+// fn loopb() {
+//     let mut number = 3;
 
-    while number != 0 {
-        println!("{number}!");
+//     while number != 0 {
+//         println!("{number}!");
 
-        number -= 1;
-    }
+//         number -= 1;
+//     }
 
-    println!("LIFTOFF!!!");
-}
+//     println!("LIFTOFF!!!");
+// }
 
-fn loopc() {
-    let a = [10, 20, 30, 40, 50];
-    let mut index = 0;
+// fn loopc() {
+//     let a = [10, 20, 30, 40, 50];
+//     let mut index = 0;
 
-    while index < 5 {
-        println!("wartość wynosi {}", a[index]);
+//     while index < 5 {
+//         println!("wartość wynosi {}", a[index]);
 
-        index += 1;
-    }
-}
+//         index += 1;
+//     }
+// }
 
-fn loopd() {
-    let a = [10, 20, 30, 40, 50];
+// fn loopd() {
+//     let a = [10, 20, 30, 40, 50];
 
-    for element in a.iter() {
-        println!("wartość wynosi: {element}");
-    }
-}
+//     for element in a.iter() {
+//         println!("wartość wynosi: {element}");
+//     }
+// }
