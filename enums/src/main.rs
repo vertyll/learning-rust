@@ -39,4 +39,16 @@ fn main() {
 
     println!("{:?}", six);
     println!("{:?}", none);
+
+    let config_max = Some(3u8);
+    if let Some(max) = config_max {
+        println!("Maksimum jest ustawione na {}", max);
+    }
+
+    let mut count = 0;
+    if let Coin::Quarter(state) = coin {
+        println!("Ćwiartka ze stanu {:?}!", state);
+    } else {
+        count += 1;
+    }
 }
