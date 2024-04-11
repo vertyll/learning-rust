@@ -1,3 +1,3 @@
 fn main() {
-    println!("Hello, world!");
+    println!("Witaj w kalkulatorze BMI!");
 }
