@@ -1,1 +1,1 @@
-# nauka-rust
+# learning-rust
