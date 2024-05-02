@@ -19,6 +19,6 @@ fn main() {
     print!(
         "{}{}",
         args.text.join(" "),
-        if args.omitnewline {""} else {"\n"}
+        if args.omit_newline {""} else {"\n"}
     );
 }
