@@ -10,7 +10,7 @@ struct Args {
 
     /// Don't print new line
     #[arg(short = "n", long = "no-newline")]
-    omit_new_line: bool,
+    omit_newline: bool,
 }
 
 fn main() {
@@ -19,6 +19,6 @@ fn main() {
     print!(
         "{}{}",
         args.text.join(" "),
-        if args.omit_new_line {""} else {"\n"}
+        if args.omit_newline {""} else {"\n"}
     );
 }
