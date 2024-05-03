@@ -1,5 +1,5 @@
 fn main() {
-    println!("{0} ma psa a, {1} ma kota.", "Ala", "Adam");
+    println!("{0} ma psa a, {1} ma kota.", "Ala", "Mikołaj");
 
     println!("{name} ma {age} lat", name="Test", age="20");
 
