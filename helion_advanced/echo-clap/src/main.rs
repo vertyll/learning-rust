@@ -2,7 +2,7 @@ use clap::{Parser};
 
 /// Echo your input
 #[derive(Parser, Debug)]
-#[command(author = "adam@gnail.com", version = "1.0.0", about = "Echo your input")]
+#[command(author = "gawrmiko@gmail.com", version = "1.0.0", about = "Echo your input")]
 struct Args {
     /// Input text
     #[arg(required = true)]
